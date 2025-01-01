@@ -18,7 +18,7 @@ jobs:
           aws_secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
    - name: Deploy site to s3 bucket
-     run: aws s3 sync . s3://JSwebsite-demo --delete
+     run: aws s3 sync . s3://js.website-demo --delete
    
           
           
